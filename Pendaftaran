@@ -1,0 +1,170 @@
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache no-svg no-inlinesvg no-smil no-svgclippaths cssscrollbar"><head>
+    <title>SIMKULIAH - Universitas Syiah Kuala</title>
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sistem Informasi Perkuliahan">
+    <meta name="keywords" content="SIMKULIAH">
+    <meta name="author" content="SIMKULIAH - Universitas Syiah Kuala">
+    <!-- Favicon icon -->
+
+    <link rel="icon" href="https://simkuliah.unsyiah.ac.id/assets/unsyiah.png" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="https://simkuliah.unsyiah.ac.id/bower_components/bootstrap/css/bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="https://simkuliah.unsyiah.ac.id/assets/icon/themify-icons/themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="https://simkuliah.unsyiah.ac.id/assets/icon/icofont/css/icofont.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="https://simkuliah.unsyiah.ac.id/assets/css/style.css">
+    <!-- color .css -->
+
+</head>
+
+<body class="fix-menu">
+    <section class="login p-fixed d-flex text-center bg-primary common-img-bg">
+        <!-- Container-fluid starts -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- Authentication card start -->
+                    <div class="login-card card-block auth-body">
+                        <form class="md-float-material" action="" method="post">
+                            <div class="text-center">
+                                <img src="https://simkuliah.unsyiah.ac.id/assets/unsyiah.png" alt="logo.png" width="100px">
+                                <br>
+                                <span style="color: #ffa84c; font-size: 25px;">
+                                    <b>SIMKULIAH</b>
+                                </span>
+                                <br>
+                                <span style="font-size: 13px; color: #000;">
+                                    <i><strong>Sistem Informasi Perkuliahan</strong></i>
+                                </span>
+                            </div>
+                            <div class="auth-box">
+                                                                <div class="row m-b-20">
+                                    <div class="col-md-12">
+                                        <h5 style="color: black; padding-top: 15px;" class="text-left txt-primary">Login Dengan Akun SIMPEG/KRS</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="input-group">
+                                    <span class="input-group-addon bg-default">
+                                        <span class="icofont icofont-user-alt-4"></span>
+                                    </span>
+                                    <input type="nip" name="username" class="form-control" placeholder="NIP/NPM">
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon bg-default">
+                                        <i class="icofont icofont-key"></i>
+                                    </span>
+                                    <input type="password" name="password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="row m-t-30">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="icofont icofont-ui-unlock"></i>Login</button>
+
+                                    </div>
+                                    <div class="col-md-12">
+                                        <a href="https://simkuliah.unsyiah.ac.id/index.php/login/login_sso">
+                                            <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="icofont icofont-ui-unlock"></i>Login Single Sign On USK</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- <div class="alert alert-info border-info" style="margin-top: -40px;">
+                                <strong>Info!</strong>
+                                Mohon Melakukan Pengisian Kuisisoner<br>
+                                Survey Penggunaan Aplikasi SIMKULIAH Pada Link : <br>
+                                <a target="_blank" href="https://forms.gle/J1MJZACojjHW5HWE6">https://forms.gle/J1MJZACojjHW5HWE6</a>
+                            </div> -->
+                        </form>
+                        <!-- end of form -->
+                    </div>
+                    <!-- Authentication card end -->
+                    <div class="copyright" style="margin-top: -40px;">
+                        2020 © UPT TIK Universitas Syiah Kuala.
+                    </div>
+                </div>
+                <!-- end of col-sm-12 -->
+            </div>
+            <!-- end of row -->
+        </div>
+        <!-- end of container-fluid -->
+    </section>
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 9]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="https://www.google.com/chrome/">
+                    <img src="https://simkuliah.unsyiah.ac.id/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="https://simkuliah.unsyiah.ac.id/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.opera.com">
+                    <img src="https://simkuliah.unsyiah.ac.id/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="https://simkuliah.unsyiah.ac.id/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="https://simkuliah.unsyiah.ac.id/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+    <!-- Warning Section Ends -->
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/popper.js/js/popper.min.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/bootstrap/js/bootstrap.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/modernizr/js/modernizr.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/modernizr/js/css-scrollbars.js"></script>
+    <!-- i18next.min.js -->
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/i18next/js/i18next.min.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
+    <!-- Custom js -->
+    <!--<script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/assets/js/script.js"></script>-->
+    <!---- color js --->
+    <script type="text/javascript" src="https://simkuliah.unsyiah.ac.id/assets/js/common-pages.js"></script>
+
+
+</body></html>
